@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Новини технологій та кібербезпеки</title>
+</head>
+<body>
+  <header>
+    <h1>Новини технологій та кібербезпеки</h1>
+    <nav role="navigation" aria-label="Головне меню">
+      <ul>
+        <li><a href="index.html" aria-current="page">Головна</a></li>
+        <li><a href="novi-tehnologii.html">Новини</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2><a href="novi-tehnologii.html">Нові технології в 2025 році</a></h2>
+      <time datetime="2025-07-25">25 липня 2025</time>
+      <p>Прорив у штучному інтелекті, розвиток квантових обчислень і впровадження 6G.</p>
+      <a href="novi-tehnologii.html">Читати далі →</a>
+    </article>
+
+    <article>
+      <h2><a href="kiberbezpeka.html">Кібербезпека: тренди та загрози</a></h2>
+      <time datetime="2025-07-25">25 липня 2025</time>
+      <p>Зростання кібератак, нові стандарти захисту й роль етичних хакерів.</p>
+      <a href="kiberbezpeka.html">Читати далі →</a>
+    </article>
+  </main>
+
+  <aside aria-labelledby="aside-title">
+    <h2 id="aside-title">Останні теми</h2>
+    <ul>
+      <li><a href="novi-tehnologii.html">Штучний інтелект та роботизація</a></li>
+      <li><a href="kiberbezpeka.html">Соціальна інженерія та криптографія</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required aria-describedby="email-error">
+      <span id="email-error" aria-live="polite">Введіть коректну email-адресу</span>
+
+      <label for="comment">Коментар:</label>
+      <textarea id="comment" required minlength="10"></textarea>
+
+      <button type="submit" aria-label="Надіслати відгук">Надіслати</button>
+    </form>
+  </footer>
+</body>
+</html>
